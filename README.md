@@ -1,5 +1,7 @@
 # Material Design Icons
 
+Currently under development.
+
 This is an [ember-cli](http://ember-cli.com) wrapper for
 [Google's material design icons library](https://github.com/google/material-design-icons).
 
@@ -7,14 +9,21 @@ This is an [ember-cli](http://ember-cli.com) wrapper for
 
 ```
 npm install --save ember-cli-material-design-icons
-ember g ember-cli-material-design-icons
+ember g ember-cli-material-design-icons            # To install all icons.
+ember g ember-cli-material-design-icons-device     # To install device category icons.
+```
+
+## Usage
+
+```hbs
+{{material-design-icon category='file' icon='cloud'}}
 ```
 
 ## License
 
 All icons are released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license by Google.
 
-All CLI code is released under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by John Otander
+All Ember CLI addon code is released under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by John Otander
 
 ## Contributing
 
