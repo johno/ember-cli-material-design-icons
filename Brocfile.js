@@ -17,6 +17,10 @@ var app = new EmberAddon();
 // please specify an object with the list of modules as keys
 // along with the exports of each module as its value.
 
-app.import(app.bowerDirectory + '/material-design-icons/**/*.svg', { destDir: 'material-design-icons' });
+var svgAssets = pickFiles(app.bowerDirectory + '/material-design-icons', {
+  srcDir: '/',
+  files: '**/*.svg',
+  destDir: '/assets/svg'
+});
 
-module.exports = app.toTree();
+module.exports = app.toTree(svgAssets);
