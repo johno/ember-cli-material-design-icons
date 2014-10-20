@@ -12,7 +12,9 @@ ember g ember-cli-material-design-icons
 
 ## License
 
-MIT
+All icons are released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license by Google.
+
+All CLI code is released under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by John Otander
 
 ## Contributing
 

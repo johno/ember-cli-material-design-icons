@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-material-design-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -15,7 +15,7 @@
     "node": ">= 0.10.0"
   },
   "author": "John Otander",
-  "license": "MIT",
+  "license": "CC BY-SA 4.0",
   "devDependencies": {
     "body-parser": "^1.2.0",
     "broccoli-asset-rev": "0.3.1",
