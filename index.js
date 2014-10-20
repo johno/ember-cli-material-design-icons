@@ -7,6 +7,6 @@ module.exports = {
     this.app = app;
     this._super.included(app);
 
-    app.import(app.bowerDirectory + '/material-design-icons/**/*.svg', destDir: { 'material-design-icons' });
+    app.import(app.bowerDirectory + '/material-design-icons/**/*.svg', { destDir: 'material-design-icons' });
   }
 };
