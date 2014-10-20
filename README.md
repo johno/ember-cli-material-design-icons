@@ -1,25 +1,25 @@
-# Ember-cli-material-design-icons
+# Material Design Icons
 
-This README outlines the details of collaborating on this Ember addon.
+This is an [ember-cli](http://ember-cli.com) wrapper for
+[Google's material design icons library](https://github.com/google/material-design-icons).
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+```
+npm install --save ember-cli-material-design-icons
+ember g ember-cli-material-design-icons
+```
 
-## Running
+## License
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+MIT
 
-## Running Tests
+## Contributing
 
-* `ember test`
-* `ember test --server`
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+Crafted with <3 by [John Otander](http://johnotander.com).
