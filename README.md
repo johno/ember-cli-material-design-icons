@@ -10,9 +10,10 @@ Once there's an official icon font, it will be utilized instead.
 
 ## Installation
 
+From within your ember-cli project:
+
 ```
 npm install --save ember-cli-material-design-icons
-ember g ember-cli-material-design-icons
 ```
 
 ## Usage
