@@ -5,18 +5,21 @@ Currently under development.
 This is an [ember-cli](http://ember-cli.com) wrapper for
 [Google's material design icons library](https://github.com/google/material-design-icons).
 
+_Note:_ This addon currently uses an unofficial font graciously open-sourced at <http://zavoloklom.github.io/material-design-iconic-font/>.
+Once there's an official icon font, it will be utilized instead.
+
 ## Installation
 
 ```
 npm install --save ember-cli-material-design-icons
 ember g ember-cli-material-design-icons            # To install all icons.
-ember g ember-cli-material-design-icons-device     # To install device category icons.
 ```
 
 ## Usage
 
 ```hbs
-{{material-design-icon category='file' icon='cloud'}}
+{{material-design-icon name='file' size='lg'}}
+{{material-design-icon name='file' spinning=true}}
 ```
 
 ## License
