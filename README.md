@@ -1,5 +1,7 @@
 # Material Design Icons
 
+[![Build Status](https://travis-ci.org/johnotander/ember-cli-material-design-icons.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-material-design-icons)
+
 Currently under development.
 
 This is an [ember-cli](http://ember-cli.com) wrapper for
@@ -18,8 +20,9 @@ ember g ember-cli-material-design-icons            # To install all icons.
 ## Usage
 
 ```hbs
-{{material-design-icon name='file' size='lg'}}
-{{material-design-icon name='file' spinning=true}}
+{{material-design-icon name='chat'}}
+{{material-design-icon name='devices' size='lg'}}
+{{material-design-icon name='attach-file' size='5x'}}
 ```
 
 ## License
