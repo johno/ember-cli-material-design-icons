@@ -22,7 +22,7 @@ ember g ember-cli-material-design-icons            # To install all icons.
 ```hbs
 {{material-design-icon name='chat'}}
 {{material-design-icon name='devices' size='lg'}}
-{{material-design-icon name='attach-file' size='5x'}}
+{{material-design-icon name='attach-file' size='5x' iconClass='some-additional-class'}}
 ```
 
 ## License
