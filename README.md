@@ -23,11 +23,17 @@ ember g ember-cli-material-design-icons
 {{material-design-icon name='attach-file' size='5x' iconClass='some-additional-class'}}
 ```
 
+## Todo
+
+- [ ] Spinner functionality.
+- [ ] Rotation functionality.
+- [ ] Wrapper class functionality.
+
 ## License
 
 All icons are released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license by Google.
-
-All Ember CLI addon code is released under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by John Otander
+Icon font is released under an [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) license by Sergey Kupletsky.
+All Ember CLI addon code is released under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/) by John Otander.
 
 ## Contributing
 
