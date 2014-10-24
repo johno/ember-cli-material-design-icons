@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/johnotander/ember-cli-material-design-icons.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-material-design-icons)
 
-Currently under development.
-
 This is an [ember-cli](http://ember-cli.com) wrapper for
 [Google's material design icons library](https://github.com/google/material-design-icons).
 

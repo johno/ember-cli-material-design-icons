@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-material-design-icons",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "directories": {
     "doc": "doc",
     "test": "tests"
