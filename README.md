@@ -28,6 +28,7 @@ ember g ember-cli-material-design-icons
 - [ ] Spinner functionality.
 - [ ] Rotation functionality.
 - [ ] Wrapper class functionality.
+- [ ] Tests.
 
 ## License
 
