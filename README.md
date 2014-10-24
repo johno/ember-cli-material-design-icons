@@ -12,7 +12,7 @@ Once there's an official icon font, it will be utilized instead.
 
 ```
 npm install --save ember-cli-material-design-icons
-ember g ember-cli-material-design-icons            # To install all icons.
+ember g ember-cli-material-design-icons
 ```
 
 ## Usage
