@@ -6,11 +6,15 @@ export default Ember.Component.extend({
   iconClass: null,
   spin: false,
   spinReverse: false,
+  flip: null,
+  rotate: null,
 
   iconClassDeclaration: function() {
     return [
       mdPrefix(this.get('name')),
       mdPrefix(this.get('size')),
+      getRotateClassDeclaration(this.get('rotate')),
+      getFlipClassDeclaration(this.get('flip')),
       getSpinningClassDeclaration(this.get('spin'), this.get('spinReverse')),
       this.get('iconClass')
     ].compact().join(' ');
@@ -23,6 +27,22 @@ function getSpinningClassDeclaration(spin, spinReverse) {
   } else if (spin) {
     return 'md-spin';
   } else  {
+    return null;
+  }
+}
+
+function getRotateClassDeclaration(rotate) {
+  if(rotate) {
+    return mdPrefix('rotate-' + rotate);
+  } else {
+    return null;
+  }
+}
+
+function getFlipClassDeclaration(flip) {
+  if(flip) {
+    return mdPrefix('flip-' + flip);
+  } else {
     return null;
   }
 }

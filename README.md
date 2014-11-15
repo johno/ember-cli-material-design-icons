@@ -26,10 +26,10 @@ npm install --save ember-cli-material-design-icons
 
 ## Todo
 
-- [ ] Spinner functionality.
-- [ ] Rotation functionality.
-- [ ] Wrapper class functionality.
-- [ ] Tests.
+- [X] Spinner functionality.
+- [X] Rotation functionality.
+- [X] Flip functionality.
+- [ ] Thorough tests.
 
 ## License
 
