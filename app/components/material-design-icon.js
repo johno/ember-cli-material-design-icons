@@ -24,9 +24,9 @@ export default Ember.Component.extend({
 
 function getSpinningClassDeclaration(spin, spinReverse) {
   if (spinReverse) {
-    return 'md-spin md-spin-reverse';
+    return 'mdi-spin mdi-spin-reverse';
   } else if (spin) {
-    return 'md-spin';
+    return 'mdi-spin';
   } else  {
     return null;
   }
@@ -50,7 +50,7 @@ function getFlipClassDeclaration(flip) {
 
 function mdPrefix(className) {
   if (className) {
-    return 'md-' + className;
+    return 'mdi-' + className;
   } else {
     return null;
   }
