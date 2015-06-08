@@ -5,9 +5,6 @@
 This is an [ember-cli](http://ember-cli.com) wrapper for
 [Google's material design icons library](https://github.com/google/material-design-icons).
 
-_Note:_ This addon currently uses an unofficial font graciously open-sourced at <http://zavoloklom.github.io/material-design-iconic-font/>.
-Once there's an official icon font, it will be utilized instead.
-
 ## Installation
 
 From within your ember-cli project:
