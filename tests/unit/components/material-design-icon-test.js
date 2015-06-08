@@ -17,3 +17,24 @@ test('it renders', function(assert) {
   this.render();
   assert.equal(component._state, 'inDOM');
 });
+
+test('it uses the correct tag', function(assert) {
+  assert.expect(1);
+
+  var component = this.subject();
+  component.set('name', 'devices');
+
+  var $component = this.append();
+  assert.equal($component.prop('tagName'), 'I');
+});
+
+test('it correctly sets the class', function(assert) {
+  assert.expect(2);
+
+  var component = this.subject();
+  component.set('name', 'devices');
+
+  var $component = this.append();
+  assert.ok($component.hasClass('mdi'));
+  assert.ok($component.hasClass('mdi-devices'));
+});
