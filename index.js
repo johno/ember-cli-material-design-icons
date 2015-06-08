@@ -6,10 +6,10 @@ module.exports = {
   included: function(app) {
     this._super.included(app);
 
-    this.app.import('vendor/css/material-design-iconic-font.css');
-    this.app.import('vendor/fonts/Material-Design-Iconic-Font.eot', { destDir: 'fonts' });
-    this.app.import('vendor/fonts/Material-Design-Iconic-Font.svg', { destDir: 'fonts' });
-    this.app.import('vendor/fonts/Material-Design-Iconic-Font.ttf', { destDir: 'fonts' });
-    this.app.import('vendor/fonts/Material-Design-Iconic-Font.woff', { destDir: 'fonts' });
+    this.app.import('vendor/css/material-icons.css');
+    this.app.import('vendor/fonts/MaterialIcons-Regular.eot', { destDir: 'fonts' });
+    this.app.import('vendor/fonts/MaterialIcons-Regular.svg', { destDir: 'fonts' });
+    this.app.import('vendor/fonts/MaterialIcons-Regular.ttf', { destDir: 'fonts' });
+    this.app.import('vendor/fonts/MaterialIcons-Regular.woff', { destDir: 'fonts' });
   }
 };
