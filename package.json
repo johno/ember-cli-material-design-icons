@@ -35,6 +35,10 @@
     "ember-disable-prototype-extensions": "^1.0.0",
     "ember-try": "0.0.6"
   },
+  "dependencies": {
+    "ember-cli-babel": "^5.0.0",
+    "ember-cli-htmlbars": "0.7.6"
+  },
   "keywords": [
     "ember-addon",
     "material-design-icons",
