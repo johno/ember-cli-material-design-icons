@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-material-design-icons",
-  "version": "0.4.0",
+  "version": "1.0.0",
   "description": "Ember CLI addon for Google's material design icons.",
   "directories": {
     "doc": "doc",
