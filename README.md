@@ -1,4 +1,4 @@
-# ember-cli-material-design-icons [![Build Status](https://travis-ci.org/johnotander/ember-cli-material-design-icons.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-material-design-icons) [![Ember Observer Score](http://emberobserver.com/badges/ember-ember-cli-material-design-icons.svg)](http://emberobserver.com/addons/ember-ember-cli-material-design-icons)
+# ember-cli-material-design-icons [![Build Status](https://travis-ci.org/johnotander/ember-cli-material-design-icons.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-material-design-icons) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-material-design-icons.svg)](http://emberobserver.com/addons/ember-cli-material-design-icons)
 
 This is an [ember-cli](http://ember-cli.com) wrapper for [Google's material design icons library](https://github.com/google/material-design-icons).
 
