@@ -2,6 +2,8 @@
 
 This is an [ember-cli](http://ember-cli.com) wrapper for [Google's material design icons library](https://github.com/google/material-design-icons).
 
+Search for icons at [the material icons library](https://www.google.com/design/icons)
+
 ## Installation
 
 From within your ember-cli project:
