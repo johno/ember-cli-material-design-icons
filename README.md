@@ -1,6 +1,6 @@
 # ember-cli-material-design-icons [![Build Status](https://travis-ci.org/johnotander/ember-cli-material-design-icons.svg?branch=master)](https://travis-ci.org/johnotander/ember-cli-material-design-icons) [![Ember Observer Score](http://emberobserver.com/badges/ember-cli-material-design-icons.svg)](http://emberobserver.com/addons/ember-cli-material-design-icons)
 
-This is an [ember-cli](http://ember-cli.com) wrapper for [Google's material design icons library](https://github.com/google/material-design-icons).
+Components for [Google's material design icons library](https://github.com/google/material-design-icons).
 
 Search for icons at [the material icons library](https://www.google.com/design/icons)
 
@@ -33,4 +33,6 @@ ember install ember-cli-material-design-icons
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Crafted with <3 by [John Otander](http://johnotander.com).
+***
+
+> Crafted with <3 by [John Otander](http://johnotander.com).
