@@ -633,6 +633,9 @@
 .mdi-data-usage:before {
   content: "\e6c6";
 }
+.mdi-date-range:before {
+  content: "\e916";
+}
 .mdi-dehaze:before {
   content: "\e6c7";
 }
